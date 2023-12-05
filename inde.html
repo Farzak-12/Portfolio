@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="left">
+        <div><i class="fa-regular fa-user fa-3x" style=""></i><h1 class="name">Fareed</h1></div>
+    </div>
+    <div class="mid">
+        <div><a href="#"><p class="barItem">About</p></a></div>
+        <div><a href="#"><p class="barItem">Resume</p></a></div>
+        <div><a href="#"><p class="barItem">Projects</p></a></div>
+        <div><a href="#"><p class="barItem">Skills</p></a></div>
+        <div><a href="#"><p class="barItem">Contact</p</a></div>
+    </div>
+    <div class="">
+        <div><h1 class="name">Color Mode</h1></div>
+    </div>
+</header>
+
+<main>
+    <section class="about">
+        <div style="display: inline;" class="rightp" >
+            <p>Welcome to my portfolio website!</p>
+            <h1 class="h1">Hey folks, I'm </h1>
+            <h5>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</h5>
+            <button class="btn1">Download Resume</button>
+            <button class="btn2"></button>
+        </div>
+        <img src="dev.svg" alt="" style="scale:(0.5);" class="leftp" height="inherit" >
+    </section>
+</main>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<img src="dev.svg" alt="">
+<a href="#"></a>
+</body>
+</html>
+
